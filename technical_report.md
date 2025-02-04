@@ -1,15 +1,14 @@
-# **Technical Report: Semantic Segmentation with Ensemble Learning and Data Amplification**
+# **Technical Report: Semantic Segmentation with Ensemble Learning**
 
 ## **1. Method**
 ### **1.1 Overview**
-This project focuses on **semantic segmentation** using **deep learning** with **semi-supervised learning**, **ensemble models**, and **data amplification**. The model is based on **FCN-ResNet50**, a fully convolutional network trained on the **PASCAL VOC dataset**.
+This project focuses on **semantic segmentation** using **deep learning** with **semi-supervised learning**, abd **ensemble models**. The model is based on **FCN-ResNet50**, a fully convolutional network trained on the **PASCAL VOC dataset**.
 
 ### **1.2 Key Enhancements**
 1. **Ensemble Learning**: Trains multiple models and averages their predictions for better accuracy.
-2. **Data Amplification**: Uses augmentation techniques (flipping, color jittering) to improve generalization.
-3. **Semi-Supervised Learning**: Utilizes sparse point annotations and full segmentation masks.
-4. **Progress Tracking**: Uses `tqdm` for real-time training and evaluation progress.
-5. **Experimental Analysis**: Evaluates different hyperparameters to determine optimal configurations.
+2. **Semi-Supervised Learning**: Utilizes sparse point annotations and full segmentation masks.
+3. **Progress Tracking**: Uses `tqdm` for real-time training and evaluation progress.
+4. **Experimental Analysis**: Evaluates different hyperparameters to determine optimal configurations.
 
 ---
 
@@ -31,7 +30,6 @@ Each experiment follows the **same training pipeline** with modifications to spe
 #### **1. Data Preparation & Augmentation**
 - **Dataset**: **PASCAL VOC 2012** (automatically downloaded if not available).
 - **Transformations**: Images and masks are resized to **256×256**.
-- **Amplification**: Horizontal flips, vertical flips, and color jittering are applied.
 
 #### **2. Model Training**
 - **Architecture**: FCN-ResNet50 with **21 classes** (for PASCAL VOC).
@@ -53,4 +51,5 @@ After each experiment, the following information is logged in the **experiment r
 1. **Training Time**: Time taken for each training configuration.
 2. **Validation Loss**: Final loss on the validation dataset.
 
-### **3.1 Sample Experiment Report Output**
+### **3.1 Experiment Report**
+[Click here to see the experiment report](experiment_report.txt)

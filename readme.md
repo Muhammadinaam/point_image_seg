@@ -7,4 +7,4 @@
 [Click here to see the technical report](technical_report.md)
 
 ### Experiment Report
-[Click here to see the technical report](experiment_report.md)
+[Click here to see the experiment report](experiment_report.txt)
