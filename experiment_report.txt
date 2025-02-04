@@ -1,0 +1,37 @@
+Experiment: Pretrained vs. Non-Pretrained
+
+  - pretrained: True
+
+    * Training Completed. Time Taken: 19.44s, Validation Loss: 2.7906
+
+  - pretrained: False
+
+    * Training Completed. Time Taken: 20.01s, Validation Loss: 2.6012
+
+Experiment: Learning Rate Effect
+
+  - learning_rate: 0.01
+
+    * Training Completed. Time Taken: 20.76s, Validation Loss: 237076032.0000
+
+  - learning_rate: 0.001
+
+    * Training Completed. Time Taken: 21.24s, Validation Loss: 1.5077
+
+  - learning_rate: 0.0001
+
+    * Training Completed. Time Taken: 21.01s, Validation Loss: 3.1699
+
+Experiment: Epoch Count
+
+  - epochs: 5
+
+    * Training Completed. Time Taken: 10.57s, Validation Loss: 9.0719
+
+  - epochs: 10
+
+    * Training Completed. Time Taken: 21.35s, Validation Loss: 2.4148
+
+  - epochs: 20
+
+    * Training Completed. Time Taken: 43.52s, Validation Loss: 1.1148
