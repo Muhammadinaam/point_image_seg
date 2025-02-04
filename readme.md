@@ -1,4 +1,4 @@
-# Please note that for assessment purpose, only a small subset of data is used. Otherwise it would take longer time for training and evaluation
+## Please note that for assessment purpose, only a small subset of data is used. Otherwise it would take longer time for training and evaluation
 
 ### How to run this project
 
